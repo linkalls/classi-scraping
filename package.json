@@ -1,0 +1,15 @@
+{
+  "name": "classi-scraping",
+  "scripts": {
+    "dev": "wrangler dev --remote ",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "@cloudflare/playwright": "^0.0.9",
+    "hono": "^4.7.6"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20250214.0",
+    "wrangler": "^4.4.0"
+  }
+}
